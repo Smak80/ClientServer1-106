@@ -4,7 +4,7 @@ import java.io.PrintWriter
 import java.net.ServerSocket
 import java.net.Socket
 
-class Server(var port: Int = 5106) {
+class Server(port: Int = 5106) {
 
     private val serverSocket = ServerSocket(port)
 
